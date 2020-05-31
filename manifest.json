@@ -1,0 +1,23 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "js/noteslib/util.js", "js/noteslib/DataManager.js", "background.js" ]
+      }
+   },
+   "description": "",
+   "icons": {
+      "128": "assets/icon_128.png",
+      "16": "assets/icon_16.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiIR69yts/5Bjhc3bYTXbWXF59y3pg4vq5xcyH09JytPYlej3Qjx0p8P9HYosbN+AE0mYBVuuKYFaKiyCccyhs+IWRYGT0+NvJmAq4VdexvlLwRLdV+2JrUmdEgfRPWEUNedjtxS0sD4Ov/VsMjR5aFaE71gu9HepTOe4ViZwKTKdbASOzA8YW7SY+NdQ7GO0OYGQRni67D4lU7VEcnvAvP1DwF5jdewv9798dJmFwjhj+6BWvvxH5kQHKXlH2XL04aS3687sX0kSWlF4MkrQxaow+KUtqkAOGhSUhGO/3FwX8d7ABo9YQkJjFr8kmjZYfTZpWBpAdDAyX18YsjfkLwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "38",
+   "name": "NotesManager",
+   "offline_enabled": true,
+   "permissions": [ "storage", "unlimitedStorage", "power", "clipboardWrite", {
+      "fileSystem": [ "write", "retainEntries", "directory" ]
+   } ],
+   "short_name": "NotesManager",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.4"
+}

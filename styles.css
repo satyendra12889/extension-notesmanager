@@ -1,0 +1,231 @@
+/* CSS file placeholder. */
+body {
+	
+}
+
+.NoteBooks {
+	float: left;
+	border: black;
+	width: 20%;
+	border-width: thin;
+	border-style: solid;
+	margin-right: 10px;
+	height: 500px;
+	background-color: black;
+	width: 200px;
+}
+
+.NotesDisplay {
+	float: left;
+	border: black;
+	border-width: thin;
+	border-style: dashed;
+	width: 635px;
+	height: 500px;
+}
+
+.note, .notes {
+	margin: 10px;
+	padding: 10px;
+	border: black;
+	/* border-width: thick; */
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	width: 535px;
+	overflow: auto;
+}
+
+div#notes {
+	width: 580px;
+	height: 400px;
+}
+
+.notetitle {
+	color: "black", style:"bold";
+	color: white;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 2px;
+	font-family: "Verdana";
+	font-size: 16px;
+	text-align: center;
+	background-color: black;
+}
+
+.pointsClass {
+	color: "black", stBooksle:"bold";
+	color: black;
+	align-content: center;
+	align-items: center;
+	padding-top: 2px;
+	margin-bottom: 2px;
+	font-size: 14px;
+	font-weight: 500;
+	background-color: cornflowerblue;
+	word-wrap: break-word;
+}
+
+.pptClass {
+	color: "black", style:"bold";
+	color: grey;
+	font-style: italic;
+	font-weight: 700;
+	background: black;
+	padding: 10px;
+}
+
+.pptClass:hover {
+	background-color: azure;
+}
+
+.pptClass_selected {
+	background-color: coral;
+}
+
+.closebtn, .header, .footer {
+	align-content: flex-end;
+	position: relative;
+	float: left;
+}
+
+.pptContainerClass {
+	height: 470px;
+	background: black;
+}
+
+.pointsWrapperClass {
+	padding-top: 5px;
+	padding-bottom: 20px;
+	padding-left: 2px;
+	padding-right: 4px;
+}
+
+div#pptContainer {
+	
+}
+
+.statusClass {
+	margin: 5px;
+	font-size: smaller;
+	font-style: oblique;
+	color: seagreen;
+}
+
+.actionItemClass {
+	margin: 5px;
+	padding: 5px;
+	clear: both;
+}
+
+button 
+{
+	background: white;
+	border: black;
+	border-style: outset;
+	border-radius: 10px;
+	border-top-color: black;
+	width: 180px;
+	height: 30px;
+}
+
+#addppt {
+	margin-bottom: 10px;
+	margin-left: 10px;
+	background: white;
+	border: black;
+	border-bottom-style: outset;
+	border-radius: 10px;
+	border-top-color: black;
+	width: 180px;
+	height: 30px;
+}
+
+#importjson,
+ #exportjson
+ {
+ 	
+    background: white;
+    border: black;
+    border-style: ridge;
+    border-radius: 10px;
+    width: 180px;
+    height: 30px;
+}
+ 
+
+#importjson:hover,
+#exportjson:hover,
+#addppt:hover,
+button:hover {
+    background: aquamarine;
+    border: black;
+    border-style: solid;
+    border-top-color: black;
+    border-radius: 10px;
+    width: 180px;
+    height: 30px;
+}
+
+#noteDisplayFooter
+{
+	margin: 10px;
+	background: black;
+	padding: 10px;
+	clear: both;
+}
+
+
+.deletebtnclass
+{
+	width: 15px;
+	height: 15px;
+	padding-left:4px;
+	padding-right:4px;
+	float:left;
+}
+
+
+
+#pop{
+    visibility: hidden;
+    position:absolute;
+    background:white;
+    border:2px solid black;
+    color:white;
+    z-index:100;
+    width: 400px;
+    height: 100px;
+    padding:20px;
+    top: 400;
+    opacity: 1;
+}
+
+.popFooter{
+    margin:5px;
+}
+
+.dimmer{
+    background: #000;
+    position: absolute;
+    opacity: .5;
+    top: 0;
+    z-index:99;
+}
+
+.popTitle
+{padding: 2px;font-size: large;color: white;background: black;align-content: center;text-align: center;font-weight: 700;}
+
+.popBtn
+{margin: 2px;}
+
+.normalPopTitle
+{
+    background: black;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    padding-left: 2px;
+    font-weight: 600;
+    font-size: medium;
+}

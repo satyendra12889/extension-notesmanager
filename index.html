@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NotesManager</title>
+<link rel="stylesheet" href="styles.css">
+<script src="js/noteslib/util.js"></script>
+<script src="js/noteslib/DataManager.js"></script>
+<script src="js/noteslib/NotesDivCreator.js"></script>
+<script src="js/noteslib/notesfunction.js"></script>
+
+</head>
+
+<body>
+	<h1 id="greeting">Notes Manager</h1>
+	<div>
+		<div class="NoteBooks">
+			<div id="pptContainer" class="pptContainerClass"></div>
+			<button id="addppt">Add PPT</button>
+		</div>
+		<div class="NotesDisplay">
+
+			<div id="notes" class="notes"></div>
+
+		<div id="noteDisplayFooter">
+		<button id="addNote" class="addNoteClass">Add Note</button> 
+		</div>
+
+		</div>
+	</div>
+	<div id="actionItem" class="actionItemClass">
+		<button id="exportjson">Take Backup</button>
+		<button id="importjson">Restore From BackUp</button>
+		<div>
+			<div id="status" class="statusClass">status....</div>
+
+<div id="pop">
+<div id="title" class="popTitle"> Title</div>
+	<div class ="normalPopTitle">Title</div><input id="popInput">
+		<div class="popFooter">
+	<button id="okBtn" class="popBtn"> Ok </button>
+		<button id="cancelBtn" class="popBtn"> Cancel</button></div>
+<div>
+
+			<script src="main.js"></script>
+</body>
+</html>
